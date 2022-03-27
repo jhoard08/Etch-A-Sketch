@@ -1,53 +1,55 @@
-  
-  #container {
-    display: inline-grid;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
-    border: 5px solid black;
-    border-radius: 5px;
-    height: 575px;
-    width: 800px;
-    background-color: #DCDCDC;
-  }
-  
-  .grid-item {
-    border: 1px solid black;
-  }
+#container {
+  display: inline-grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 575px;
+  width: 800px;
+  background-color: #dcdcdc;
+}
 
-  .gameName {
-      color: goldenrod;
-      font-size: 36px;
-      text-shadow: 1px 1px black;
-  }
+.grid-item {
+  border: 1px solid black;
+}
 
-  .controls {
-      display: flex;
-      align-items: center;
-      margin-top: 40px;
-      gap: 600px;
-  }
+.gameName {
+  color: goldenrod;
+  font-size: 36px;
+  text-shadow: 1px 1px black;
+}
 
-  .btn {
-      height: 90px;
-      width: 90px;
-      padding: 20px;
-      border-radius: 50%;
-      margin-bottom: 30px;
-      box-shadow: 1px 1px black;
-    
-  }
+.controls {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 600px;
+}
 
-  .gameContainer {
-      background-color: red;
-      width: 60%;
-      height: 700px;
-      padding: 45px;
-      text-align: center;
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 8px;
-      margin: auto;
-      box-shadow: 3px 3px black;
-  }
+.btn {
+  height: 90px;
+  width: 90px;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px black;
+  color: #000;
+  font-size: 15px;
+  background-color: #dcdcdc;
+  font-weight: bold;
+}
+
+.gameContainer {
+  background-color: red;
+  width: 40%;
+  height: 700px;
+  padding: 45px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 3px 3px black;
+}
