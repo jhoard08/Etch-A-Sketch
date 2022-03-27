@@ -1,0 +1,31 @@
+  
+  #container {
+    display: inline-grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+  }
+  
+  .grid-item {
+    border: 1px solid black;
+  }
+
+  .gameContainer {
+      text-align: center;
+  }
+
+  .controls {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 40px;
+  }
+
+  .btn {
+      min-width: 100px;
+      padding: 20px;
+      border-radius: 30px;
+  }
