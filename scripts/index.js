@@ -1,6 +1,8 @@
 const container = document.querySelector('#container');
 const button = document.querySelector('.reset');
 
+let userInput = prompt('How many rows/columns would you like?');
+
 const makeRows = (rows, cols) => {
   container.style.setProperty('--grid-rows', rows);
   container.style.setProperty('--grid-cols', cols);
@@ -13,13 +15,13 @@ const makeRows = (rows, cols) => {
   };
 };
 
-makeRows(100, 100);
-
 button.addEventListener('click', () => {
     const reset = document.querySelectorAll('.grid-item');
     reset.forEach(paint => {
-        paint.setAttribute('style', 'background-color: white');
+        paint.setAttribute('style', 'background-color: #DCDCDC');
     });
+    //userInput = prompt('How many rows/columns would you like?');
 });
 
+makeRows(userInput, userInput);
 

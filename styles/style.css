@@ -6,26 +6,48 @@
     border: 5px solid black;
     border-radius: 5px;
     height: 575px;
-    width: 575px;
+    width: 800px;
+    background-color: #DCDCDC;
   }
   
   .grid-item {
     border: 1px solid black;
   }
 
-  .gameContainer {
-      text-align: center;
+  .gameName {
+      color: goldenrod;
+      font-size: 36px;
+      text-shadow: 1px 1px black;
   }
 
   .controls {
       display: flex;
-      justify-content: space-evenly;
       align-items: center;
       margin-top: 40px;
+      gap: 600px;
   }
 
   .btn {
-      min-width: 100px;
+      height: 90px;
+      width: 90px;
       padding: 20px;
-      border-radius: 30px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+      box-shadow: 1px 1px black;
+    
+  }
+
+  .gameContainer {
+      background-color: red;
+      width: 60%;
+      height: 700px;
+      padding: 45px;
+      text-align: center;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      margin: auto;
+      box-shadow: 3px 3px black;
   }
